@@ -25,7 +25,7 @@ public:
         return sum;
     }
 };
-//anant krishna
+
 int main() {
     Solution solution;
     vector<vector<int>> grid = {{4, 3, 2, -1},
