@@ -1,5 +1,5 @@
 #include <string>
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 
@@ -17,7 +17,7 @@ public:
 
 int main() {
     Solution solution;
-    std::string columnTitle = "ZY";
+    std::string columnTitle = "AB";
     int columnNumber = solution.titleToNumber(columnTitle);
     printf("Column Number: %d\n", columnNumber);
 
