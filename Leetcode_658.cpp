@@ -20,7 +20,7 @@ public:
 
 int main() {
     Solution solution;
-    vector<int> nums = {2, 3, 4, 5,6};
+    vector<int> nums = {2,3,4,5,6};
     int k = 3;
     int x = 4;
     
