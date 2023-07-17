@@ -28,7 +28,7 @@ public:
 
 int main() {
     Solution solution;
-    string input = "hello world";
+    string input = "Hello Anant";
     string reversed = solution.reverseVowels(input);
     cout << "Reversed string: " << reversed << endl;
     return 0;
