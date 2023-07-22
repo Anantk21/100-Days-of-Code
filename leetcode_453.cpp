@@ -14,7 +14,7 @@ public:
 
 int main() {
     // Test the Solution class
-    vector<int> nums = {1,2,3};
+    vector<int> nums = {1,2,3,4,5};
     Solution solution;
     int minMovesResult = solution.minMoves(nums);
     cout << "Minimum Moves: " << minMovesResult << endl;
