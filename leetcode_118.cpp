@@ -19,7 +19,7 @@ public:
 
 int main() {
     Solution solution;
-    int numRows = 5; // Set the number of rows you want to generate here
+    int numRows = 6; // Set the number of rows you want to generate here
     
     vector<vector<int>> result = solution.generate(numRows);
     
