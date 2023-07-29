@@ -25,7 +25,7 @@ public:
 
 int main() {
     Solution sol;
-    vector<int> height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+    vector<int> height = {1, 8, 6, 9, 5, 4, 12, 3, 7};
     int result = sol.maxArea(height);
     cout << "Max area of the container is: " << result << endl;
     return 0;
