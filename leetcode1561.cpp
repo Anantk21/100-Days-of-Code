@@ -21,7 +21,7 @@ public:
 
 int main() {
     // You can test your Solution class here if needed
-     std::vector<int> testPiles = {4, 3, 6, 7, 1, 2, 8};
+     std::vector<int> testPiles = {4, 3, 5, 7, 1, 2, 8};
     
     Solution solution;
     int maxCoins = solution.maxCoins(testPiles);
