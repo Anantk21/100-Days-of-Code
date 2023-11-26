@@ -13,8 +13,8 @@ public:
 int main() {
     // Example usage
     Solution solution;
-    int sum = 15;
-    int k = 3;
+    int sum = 58;
+    int k = 9;
     int result = solution.minimumNumbers(sum, k);
 
     // Display the result
