@@ -40,7 +40,7 @@ int main() {
     vector<bool> result = solution.checkArithmeticSubarrays(nums, l, r);
 
     // Display the result
-    cout << "Result: ";
+    cout << "Result- ";
     for (bool val : result) {
         cout << val << " ";
     }
