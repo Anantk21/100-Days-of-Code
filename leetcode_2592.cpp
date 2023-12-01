@@ -30,7 +30,7 @@ int main() {
     Solution solution;
     int result = solution.maximizeGreatness(exampleVector);
     
-    // Print the result (you can modify this based on your requirements)
+    
     std::cout << "Result: " << result << std::endl;
 
     return 0;
