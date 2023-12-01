@@ -7,7 +7,7 @@ using namespace std;
 class Solution {
 public:
     int maximizeGreatness(std::vector<int>& nums) {
-        std::sort(nums.begin(), nums.end());
+        sort(nums.begin(), nums.end());
         
         int i = 0, j = 0, cnt = 0;
         
@@ -26,7 +26,7 @@ public:
 
 int main() {
     // Example usage
-    std::vector<int> exampleVector = {3, 1, 4, 2, 2};
+    vector<int> exampleVector = {3, 1, 4, 2, 2};
     Solution solution;
     int result = solution.maximizeGreatness(exampleVector);
     
