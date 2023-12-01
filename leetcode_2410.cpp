@@ -2,11 +2,13 @@
 #include <algorithm>
 #include <iostream>
 
+using namespace std;
+
 class Solution {
 public:
     int matchPlayersAndTrainers(std::vector<int>& players, std::vector<int>& trainers) {
-        std::sort(players.begin(), players.end());
-        std::sort(trainers.begin(), trainers.end());
+        sort(players.begin(), players.end());
+        sort(trainers.begin(), trainers.end());
         int i = 0, j = 0, cnt = 0;
 
         while (i < players.size() && j < trainers.size()) {
