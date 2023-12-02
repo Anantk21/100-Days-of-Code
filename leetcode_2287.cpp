@@ -30,9 +30,9 @@ int main() {
     string target1 = "code";
     cout << "Example 1: " << solution.rearrangeCharacters(s1, target1) << endl;
 
-    // string s2 = "abcba";
-    // string target2 = "abc";
-    // cout << "Example 2: " << solution.rearrangeCharacters(s2, target2) << endl;
+    string s2 = "abcba";
+    string target2 = "abc";
+    cout << "Example 2: " << solution.rearrangeCharacters(s2, target2) << endl;
 
     string s3 = "abbaccaddaeea";
     string target3 = "aaaaa";
