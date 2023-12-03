@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 class Solution {
 public:
     bool checkString(std::string s) {
