@@ -6,7 +6,7 @@ using namespace std;
 
 class Solution {
 public:
-    std::vector<int> divisibilityArray(std::string word, int m) {
+    vector<int> divisibilityArray(string word, int m) {
         int n = word.length();
         std::vector<int> ans(n, 0);
         long long int x = 0;
