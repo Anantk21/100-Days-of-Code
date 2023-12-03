@@ -2,6 +2,8 @@
 #include <vector>
 #include <string>
 
+using namespace std;
+
 class Solution {
 public:
     std::vector<int> divisibilityArray(std::string word, int m) {
