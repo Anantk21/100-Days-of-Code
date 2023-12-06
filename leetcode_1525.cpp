@@ -29,7 +29,7 @@ public:
 };
 
 int main() {
-    // Example usage
+    /
     Solution solution;
     string input = "aacaba";
     int result = solution.numSplits(input);
