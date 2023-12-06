@@ -29,10 +29,10 @@ public:
 };
 
 int main() {
-    /
+    
     Solution solution;
     string input = "aacaba";
-    int result = solution.numSplits(input);
+    int result = Solution.numSplits(input);
 
     cout << "Result: " << result << endl;
 
