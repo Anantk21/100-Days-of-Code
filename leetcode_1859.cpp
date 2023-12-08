@@ -2,6 +2,8 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 class Solution {
 public:
     std::string sortSentence(std::string s) {
