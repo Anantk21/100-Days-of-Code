@@ -21,7 +21,7 @@ public:
 int main() {
     // Example usage
     Solution solution;
-    vector<int> arr = {1, 2, 2, 6, 6, 6, 6, 7, 10,12};
+    vector<int> arr = {1, 2, 2, 6, 6, 6, 6, 7, 11,12};
     int result = solution.findSpecialInteger(arr);
     
     if(result != -1) {
