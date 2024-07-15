@@ -24,7 +24,7 @@ public:
 int main() {
     // Example usage
     vector<vector<int>> matrix = {
-        {1, 2, 3},
+        {1, 2, 12},
         {4, 5, 6},
         {7, 8, 9}
     };
