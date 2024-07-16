@@ -3,6 +3,8 @@
 #include <vector>
 #include <algorithm>
 
+using namespace std;
+
 class Solution {
 public:
     int numRescueBoats(std::vector<int>& people, int limit) {
